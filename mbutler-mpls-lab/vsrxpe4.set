@@ -1,0 +1,28 @@
+set interfaces ge-0/0/1 unit 0 family inet address 192.168.0.5/30
+set interfaces ge-0/0/2 unit 0 family inet address 10.0.5.2/30
+set interfaces ge-0/0/2 unit 0 family mpls
+set interfaces ge-0/0/3 unit 0 family inet address 10.0.3.2/30
+set interfaces ge-0/0/3 unit 0 family mpls
+set interfaces lo0 unit 0 family inet address 4.4.4.4/32
+set routing-options router-id 4.4.4.4
+set routing-options autonomous-system 65500
+set protocols mpls interface ge-0/0/2.0
+set protocols mpls interface ge-0/0/3.0
+set protocols bgp group PE-iBGP type internal
+set protocols bgp group PE-iBGP local-address 4.4.4.4
+set protocols bgp group PE-iBGP family inet-vpn unicast
+set protocols bgp group PE-iBGP neighbor 3.3.3.3
+set protocols ospf traffic-engineering
+set protocols ospf area 0.0.0.0 interface lo0.0 passive
+set protocols ospf area 0.0.0.0 interface ge-0/0/2.0
+set protocols ospf area 0.0.0.0 interface ge-0/0/3.0
+set protocols ldp interface ge-0/0/2.0
+set protocols ldp interface ge-0/0/3.0
+set protocols lldp interface all
+set routing-instances PE-CE instance-type vrf
+set routing-instances PE-CE interface ge-0/0/1.0
+set routing-instances PE-CE route-distinguisher 4.4.4.4:1
+set routing-instances PE-CE vrf-target target:65500:3
+set routing-instances PE-CE protocols bgp group PE-CE type external
+set routing-instances PE-CE protocols bgp group PE-CE peer-as 65200
+set routing-instances PE-CE protocols bgp group PE-CE neighbor 192.168.0.6

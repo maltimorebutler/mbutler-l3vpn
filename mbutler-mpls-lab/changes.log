@@ -1,0 +1,605 @@
+2016-04-25 16:23:31,568:CONFIG:127.0.0.1:connecting to host: root@127.0.0.1:2221
+2016-04-25 16:23:31,602:ncclient.transport.ssh:Connected (version 2.0, client OpenSSH_6.6)
+2016-04-25 16:23:31,746:ncclient.transport.ssh:Authentication (publickey) failed.
+2016-04-25 16:23:31,757:ncclient.transport.ssh:Authentication (password) successful!
+2016-04-25 16:23:32,148:ncclient.transport.session:initialized: session-id=2217 | server_capabilities=['http://xml.juniper.net/dmi/system/1.0', 'urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0', 'http://xml.juniper.net/netconf/junos/1.0', 'urn:ietf:params:xml:ns:netconf:capability:validate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:candidate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file', 'urn:ietf:params:xml:ns:netconf:base:1.0']
+2016-04-25 16:23:32,148:CONFIG:127.0.0.1:pushing file: /home/ksator/vagrant/3vsrx/vsrx01.conf
+2016-04-25 16:23:32,148:CONFIG:127.0.0.1:taking lock
+2016-04-25 16:23:32,152:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-04-25 16:23:32,274:CONFIG:127.0.0.1:loading config
+2016-04-25 16:23:32,277:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-04-25 16:23:32,397:CONFIG:127.0.0.1:Unable to load config: ConfigLoadError(severity: error, bad_element: set, message: syntax error)
+2016-04-25 16:23:32,397:CONFIG:127.0.0.1:unlocking
+2016-04-25 16:23:32,399:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-04-25 16:23:32,469:ncclient.operations.rpc:Requesting 'CloseSession'
+2016-04-25 16:30:51,665:CONFIG:127.0.0.1:connecting to host: root@127.0.0.1:2221
+2016-04-25 16:30:51,704:ncclient.transport.ssh:Connected (version 2.0, client OpenSSH_6.6)
+2016-04-25 16:30:51,825:ncclient.transport.ssh:Authentication (publickey) failed.
+2016-04-25 16:30:51,855:ncclient.transport.ssh:Authentication (password) successful!
+2016-04-25 16:30:52,208:ncclient.transport.session:initialized: session-id=2223 | server_capabilities=['http://xml.juniper.net/dmi/system/1.0', 'urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0', 'http://xml.juniper.net/netconf/junos/1.0', 'urn:ietf:params:xml:ns:netconf:capability:validate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:candidate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file', 'urn:ietf:params:xml:ns:netconf:base:1.0']
+2016-04-25 16:30:52,209:CONFIG:127.0.0.1:pushing file: /home/ksator/vagrant/3vsrx/vsrx01.set
+2016-04-25 16:30:52,209:CONFIG:127.0.0.1:taking lock
+2016-04-25 16:30:52,211:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-04-25 16:30:52,330:CONFIG:127.0.0.1:loading config
+2016-04-25 16:30:52,332:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-04-25 16:30:52,454:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-04-25 16:30:52,678:CONFIG:127.0.0.1:doing a commit-check, please be patient
+2016-04-25 16:30:52,680:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-04-25 16:30:53,155:CONFIG:127.0.0.1:committing change, please be patient
+2016-04-25 16:30:53,159:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-04-25 16:30:54,447:CONFIG:127.0.0.1:unlocking
+2016-04-25 16:30:54,448:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-04-25 16:30:54,568:CONFIG:127.0.0.1:change completed
+2016-04-25 16:30:54,569:ncclient.operations.rpc:Requesting 'CloseSession'
+2016-04-25 16:33:44,037:CONFIG:127.0.0.1:connecting to host: root@127.0.0.1:2222
+2016-04-25 16:33:44,087:ncclient.transport.ssh:Connected (version 2.0, client OpenSSH_6.6)
+2016-04-25 16:33:44,186:ncclient.transport.ssh:Authentication (publickey) failed.
+2016-04-25 16:33:44,216:ncclient.transport.ssh:Authentication (password) successful!
+2016-04-25 16:33:44,598:ncclient.transport.session:initialized: session-id=2217 | server_capabilities=['http://xml.juniper.net/dmi/system/1.0', 'urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0', 'http://xml.juniper.net/netconf/junos/1.0', 'urn:ietf:params:xml:ns:netconf:capability:validate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:candidate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file', 'urn:ietf:params:xml:ns:netconf:base:1.0']
+2016-04-25 16:33:44,598:CONFIG:127.0.0.1:pushing file: /home/ksator/vagrant/3vsrx/vsrx02.set
+2016-04-25 16:33:44,598:CONFIG:127.0.0.1:taking lock
+2016-04-25 16:33:44,602:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-04-25 16:33:44,720:CONFIG:127.0.0.1:loading config
+2016-04-25 16:33:44,723:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-04-25 16:33:44,845:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-04-25 16:33:45,013:CONFIG:127.0.0.1:doing a commit-check, please be patient
+2016-04-25 16:33:45,015:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-04-25 16:33:45,537:CONFIG:127.0.0.1:committing change, please be patient
+2016-04-25 16:33:45,540:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-04-25 16:33:46,978:CONFIG:127.0.0.1:unlocking
+2016-04-25 16:33:46,978:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-04-25 16:33:47,095:CONFIG:127.0.0.1:change completed
+2016-04-25 16:33:47,096:ncclient.operations.rpc:Requesting 'CloseSession'
+2016-04-25 16:37:50,931:CONFIG:127.0.0.1:connecting to host: root@127.0.0.1:2223
+2016-04-25 16:37:50,969:ncclient.transport.ssh:Connected (version 2.0, client OpenSSH_6.6)
+2016-04-25 16:37:51,140:ncclient.transport.ssh:Authentication (publickey) failed.
+2016-04-25 16:37:51,157:ncclient.transport.ssh:Authentication (password) successful!
+2016-04-25 16:37:51,695:ncclient.transport.session:initialized: session-id=2217 | server_capabilities=['http://xml.juniper.net/dmi/system/1.0', 'urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0', 'http://xml.juniper.net/netconf/junos/1.0', 'urn:ietf:params:xml:ns:netconf:capability:validate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:candidate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file', 'urn:ietf:params:xml:ns:netconf:base:1.0']
+2016-04-25 16:37:51,696:CONFIG:127.0.0.1:pushing file: /home/ksator/vagrant/3vsrx/vsrx03.set
+2016-04-25 16:37:51,696:CONFIG:127.0.0.1:taking lock
+2016-04-25 16:37:51,741:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-04-25 16:37:51,830:CONFIG:127.0.0.1:loading config
+2016-04-25 16:37:51,846:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-04-25 16:37:51,979:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-04-25 16:37:52,211:CONFIG:127.0.0.1:doing a commit-check, please be patient
+2016-04-25 16:37:52,224:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-04-25 16:37:52,806:CONFIG:127.0.0.1:committing change, please be patient
+2016-04-25 16:37:52,810:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-04-25 16:37:54,854:CONFIG:127.0.0.1:unlocking
+2016-04-25 16:37:54,855:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-04-25 16:37:54,972:CONFIG:127.0.0.1:change completed
+2016-04-25 16:37:54,973:ncclient.operations.rpc:Requesting 'CloseSession'
+2016-06-07 08:58:32,622:CONFIG:127.0.0.1:connecting to host: root@127.0.0.1:2221
+2016-06-07 08:58:32,700:ncclient.transport.ssh:Connected (version 2.0, client OpenSSH_6.6)
+2016-06-07 08:58:32,850:ncclient.transport.ssh:Authentication (password) successful!
+2016-06-07 08:58:33,302:ncclient.transport.session:initialized: session-id=2214 | server_capabilities=['http://xml.juniper.net/dmi/system/1.0', 'urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0', 'http://xml.juniper.net/netconf/junos/1.0', 'urn:ietf:params:xml:ns:netconf:capability:validate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:candidate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file', 'urn:ietf:params:xml:ns:netconf:base:1.0']
+2016-06-07 08:58:33,302:CONFIG:127.0.0.1:pushing file: /Users/mbutler/Playground/vagrant-junos/3vsrx/vsrx01.set
+2016-06-07 08:58:33,302:CONFIG:127.0.0.1:taking lock
+2016-06-07 08:58:33,310:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-07 08:58:33,440:CONFIG:127.0.0.1:loading config
+2016-06-07 08:58:33,441:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-07 08:58:33,570:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-07 08:58:33,853:CONFIG:127.0.0.1:doing a commit-check, please be patient
+2016-06-07 08:58:33,853:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-07 08:58:34,825:CONFIG:127.0.0.1:committing change, please be patient
+2016-06-07 08:58:34,825:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-07 08:58:37,130:CONFIG:127.0.0.1:unlocking
+2016-06-07 08:58:37,130:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-07 08:58:37,257:CONFIG:127.0.0.1:change completed
+2016-06-07 08:58:37,257:ncclient.operations.rpc:Requesting 'CloseSession'
+2016-06-07 09:00:29,584:CONFIG:127.0.0.1:connecting to host: root@127.0.0.1:2222
+2016-06-07 09:00:29,648:ncclient.transport.ssh:Connected (version 2.0, client OpenSSH_6.6)
+2016-06-07 09:00:29,777:ncclient.transport.ssh:Authentication (password) successful!
+2016-06-07 09:00:30,242:ncclient.transport.session:initialized: session-id=2220 | server_capabilities=['http://xml.juniper.net/dmi/system/1.0', 'urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0', 'http://xml.juniper.net/netconf/junos/1.0', 'urn:ietf:params:xml:ns:netconf:capability:validate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:candidate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file', 'urn:ietf:params:xml:ns:netconf:base:1.0']
+2016-06-07 09:00:30,242:CONFIG:127.0.0.1:pushing file: /Users/mbutler/Playground/vagrant-junos/3vsrx/vsrx02.set
+2016-06-07 09:00:30,243:CONFIG:127.0.0.1:taking lock
+2016-06-07 09:00:30,249:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-07 09:00:30,322:CONFIG:127.0.0.1:loading config
+2016-06-07 09:00:30,323:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-07 09:00:30,502:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-07 09:00:30,736:CONFIG:127.0.0.1:doing a commit-check, please be patient
+2016-06-07 09:00:30,736:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-07 09:00:31,668:CONFIG:127.0.0.1:committing change, please be patient
+2016-06-07 09:00:31,669:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-07 09:00:33,945:CONFIG:127.0.0.1:unlocking
+2016-06-07 09:00:33,946:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-07 09:00:34,071:CONFIG:127.0.0.1:change completed
+2016-06-07 09:00:34,072:ncclient.operations.rpc:Requesting 'CloseSession'
+2016-06-07 09:02:26,586:CONFIG:127.0.0.1:connecting to host: root@127.0.0.1:2223
+2016-06-07 09:02:26,681:ncclient.transport.ssh:Connected (version 2.0, client OpenSSH_6.6)
+2016-06-07 09:02:26,831:ncclient.transport.ssh:Authentication (password) successful!
+2016-06-07 09:02:27,330:ncclient.transport.session:initialized: session-id=2214 | server_capabilities=['http://xml.juniper.net/dmi/system/1.0', 'urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0', 'http://xml.juniper.net/netconf/junos/1.0', 'urn:ietf:params:xml:ns:netconf:capability:validate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:candidate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file', 'urn:ietf:params:xml:ns:netconf:base:1.0']
+2016-06-07 09:02:27,330:CONFIG:127.0.0.1:pushing file: /Users/mbutler/Playground/vagrant-junos/3vsrx/vsrx03.set
+2016-06-07 09:02:27,330:CONFIG:127.0.0.1:taking lock
+2016-06-07 09:02:27,336:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-07 09:02:27,461:CONFIG:127.0.0.1:loading config
+2016-06-07 09:02:27,461:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-07 09:02:27,587:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-07 09:02:27,871:CONFIG:127.0.0.1:doing a commit-check, please be patient
+2016-06-07 09:02:27,872:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-07 09:02:28,850:CONFIG:127.0.0.1:committing change, please be patient
+2016-06-07 09:02:28,850:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-07 09:02:31,227:CONFIG:127.0.0.1:unlocking
+2016-06-07 09:02:31,227:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-07 09:02:31,352:CONFIG:127.0.0.1:change completed
+2016-06-07 09:02:31,352:ncclient.operations.rpc:Requesting 'CloseSession'
+2016-06-09 19:59:30,881:CONFIG:127.0.0.1:connecting to host: root@127.0.0.1:2222
+2016-06-09 19:59:30,974:ncclient.transport.ssh:Connected (version 2.0, client OpenSSH_6.6)
+2016-06-09 19:59:31,124:ncclient.transport.ssh:Authentication (password) successful!
+2016-06-09 19:59:31,640:ncclient.transport.session:initialized: session-id=2215 | server_capabilities=['http://xml.juniper.net/dmi/system/1.0', 'urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0', 'http://xml.juniper.net/netconf/junos/1.0', 'urn:ietf:params:xml:ns:netconf:capability:validate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:candidate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file', 'urn:ietf:params:xml:ns:netconf:base:1.0']
+2016-06-09 19:59:31,640:CONFIG:127.0.0.1:pushing file: /Users/mbutler/Playground/mbutler-mpls-lab/vsrxp1.set
+2016-06-09 19:59:31,640:CONFIG:127.0.0.1:taking lock
+2016-06-09 19:59:31,647:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 19:59:31,720:CONFIG:127.0.0.1:loading config
+2016-06-09 19:59:31,720:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 19:59:31,896:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 19:59:32,133:CONFIG:127.0.0.1:doing a commit-check, please be patient
+2016-06-09 19:59:32,133:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 19:59:33,012:CONFIG:127.0.0.1:committing change, please be patient
+2016-06-09 19:59:33,012:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 19:59:35,306:CONFIG:127.0.0.1:unlocking
+2016-06-09 19:59:35,306:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 19:59:35,426:CONFIG:127.0.0.1:change completed
+2016-06-09 19:59:35,426:ncclient.operations.rpc:Requesting 'CloseSession'
+2016-06-09 20:01:28,777:CONFIG:127.0.0.1:connecting to host: root@127.0.0.1:2200
+2016-06-09 20:01:28,850:ncclient.transport.ssh:Connected (version 2.0, client OpenSSH_6.6)
+2016-06-09 20:01:29,010:ncclient.transport.ssh:Authentication (password) successful!
+2016-06-09 20:01:29,467:ncclient.transport.session:initialized: session-id=2218 | server_capabilities=['http://xml.juniper.net/dmi/system/1.0', 'urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0', 'http://xml.juniper.net/netconf/junos/1.0', 'urn:ietf:params:xml:ns:netconf:capability:validate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:candidate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file', 'urn:ietf:params:xml:ns:netconf:base:1.0']
+2016-06-09 20:01:29,467:CONFIG:127.0.0.1:pushing file: /Users/mbutler/Playground/mbutler-mpls-lab/vsrxp2.set
+2016-06-09 20:01:29,467:CONFIG:127.0.0.1:taking lock
+2016-06-09 20:01:29,473:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 20:01:29,601:CONFIG:127.0.0.1:loading config
+2016-06-09 20:01:29,601:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 20:01:29,781:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 20:01:30,012:CONFIG:127.0.0.1:doing a commit-check, please be patient
+2016-06-09 20:01:30,012:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 20:01:30,880:CONFIG:127.0.0.1:committing change, please be patient
+2016-06-09 20:01:30,881:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 20:01:33,080:CONFIG:127.0.0.1:unlocking
+2016-06-09 20:01:33,081:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 20:01:33,202:CONFIG:127.0.0.1:change completed
+2016-06-09 20:01:33,202:ncclient.operations.rpc:Requesting 'CloseSession'
+2016-06-09 20:03:07,507:CONFIG:127.0.0.1:connecting to host: root@127.0.0.1:2201
+2016-06-09 20:03:07,517:ncclient.transport.ssh:Connected (version 2.0, client OpenSSH_6.6)
+2016-06-09 20:03:07,606:ncclient.transport.ssh:Authentication (password) successful!
+2016-06-09 20:03:07,789:ncclient.transport.session:initialized: session-id=2213 | server_capabilities=['http://xml.juniper.net/dmi/system/1.0', 'urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0', 'http://xml.juniper.net/netconf/junos/1.0', 'urn:ietf:params:xml:ns:netconf:capability:validate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:candidate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file', 'urn:ietf:params:xml:ns:netconf:base:1.0']
+2016-06-09 20:03:07,789:CONFIG:127.0.0.1:pushing file: /Users/mbutler/Playground/mbutler-mpls-lab/vsrxpe3.set
+2016-06-09 20:03:07,789:CONFIG:127.0.0.1:taking lock
+2016-06-09 20:03:07,795:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 20:03:07,868:CONFIG:127.0.0.1:loading config
+2016-06-09 20:03:07,869:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 20:03:07,996:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 20:03:08,116:CONFIG:127.0.0.1:doing a commit-check, please be patient
+2016-06-09 20:03:08,117:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 20:03:08,292:CONFIG:127.0.0.1:committing change, please be patient
+2016-06-09 20:03:08,292:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 20:03:08,627:CONFIG:127.0.0.1:unlocking
+2016-06-09 20:03:08,627:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 20:03:08,701:CONFIG:127.0.0.1:change completed
+2016-06-09 20:03:08,701:ncclient.operations.rpc:Requesting 'CloseSession'
+2016-06-09 20:05:06,265:CONFIG:127.0.0.1:connecting to host: root@127.0.0.1:2202
+2016-06-09 20:05:06,331:ncclient.transport.ssh:Connected (version 2.0, client OpenSSH_6.6)
+2016-06-09 20:05:06,450:ncclient.transport.ssh:Authentication (password) successful!
+2016-06-09 20:05:06,912:ncclient.transport.session:initialized: session-id=2218 | server_capabilities=['http://xml.juniper.net/dmi/system/1.0', 'urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0', 'http://xml.juniper.net/netconf/junos/1.0', 'urn:ietf:params:xml:ns:netconf:capability:validate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:candidate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file', 'urn:ietf:params:xml:ns:netconf:base:1.0']
+2016-06-09 20:05:06,912:CONFIG:127.0.0.1:pushing file: /Users/mbutler/Playground/mbutler-mpls-lab/vsrxpe4.set
+2016-06-09 20:05:06,912:CONFIG:127.0.0.1:taking lock
+2016-06-09 20:05:06,918:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 20:05:07,047:CONFIG:127.0.0.1:loading config
+2016-06-09 20:05:07,048:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 20:05:07,222:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 20:05:07,457:CONFIG:127.0.0.1:doing a commit-check, please be patient
+2016-06-09 20:05:07,457:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 20:05:08,395:CONFIG:127.0.0.1:committing change, please be patient
+2016-06-09 20:05:08,395:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 20:05:10,500:CONFIG:127.0.0.1:unlocking
+2016-06-09 20:05:10,500:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 20:05:10,625:CONFIG:127.0.0.1:change completed
+2016-06-09 20:05:10,625:ncclient.operations.rpc:Requesting 'CloseSession'
+2016-06-09 20:06:51,468:CONFIG:127.0.0.1:connecting to host: root@127.0.0.1:2203
+2016-06-09 20:06:51,480:ncclient.transport.ssh:Connected (version 2.0, client OpenSSH_6.6)
+2016-06-09 20:06:51,576:ncclient.transport.ssh:Authentication (password) successful!
+2016-06-09 20:06:51,767:ncclient.transport.session:initialized: session-id=2214 | server_capabilities=['http://xml.juniper.net/dmi/system/1.0', 'urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0', 'http://xml.juniper.net/netconf/junos/1.0', 'urn:ietf:params:xml:ns:netconf:capability:validate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:candidate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file', 'urn:ietf:params:xml:ns:netconf:base:1.0']
+2016-06-09 20:06:51,767:CONFIG:127.0.0.1:pushing file: /Users/mbutler/Playground/mbutler-mpls-lab/vsrxce5.set
+2016-06-09 20:06:51,767:CONFIG:127.0.0.1:taking lock
+2016-06-09 20:06:51,775:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 20:06:51,849:CONFIG:127.0.0.1:loading config
+2016-06-09 20:06:51,850:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 20:06:51,973:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 20:06:52,097:CONFIG:127.0.0.1:doing a commit-check, please be patient
+2016-06-09 20:06:52,097:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 20:06:52,276:CONFIG:127.0.0.1:committing change, please be patient
+2016-06-09 20:06:52,276:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 20:06:52,617:CONFIG:127.0.0.1:unlocking
+2016-06-09 20:06:52,617:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 20:06:52,746:CONFIG:127.0.0.1:change completed
+2016-06-09 20:06:52,746:ncclient.operations.rpc:Requesting 'CloseSession'
+2016-06-09 20:08:52,325:CONFIG:127.0.0.1:connecting to host: root@127.0.0.1:2204
+2016-06-09 20:08:52,387:ncclient.transport.ssh:Connected (version 2.0, client OpenSSH_6.6)
+2016-06-09 20:08:52,528:ncclient.transport.ssh:Authentication (password) successful!
+2016-06-09 20:08:52,980:ncclient.transport.session:initialized: session-id=2215 | server_capabilities=['http://xml.juniper.net/dmi/system/1.0', 'urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0', 'http://xml.juniper.net/netconf/junos/1.0', 'urn:ietf:params:xml:ns:netconf:capability:validate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:candidate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file', 'urn:ietf:params:xml:ns:netconf:base:1.0']
+2016-06-09 20:08:52,980:CONFIG:127.0.0.1:pushing file: /Users/mbutler/Playground/mbutler-mpls-lab/vsrxce6.set
+2016-06-09 20:08:52,980:CONFIG:127.0.0.1:taking lock
+2016-06-09 20:08:52,987:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 20:08:53,112:CONFIG:127.0.0.1:loading config
+2016-06-09 20:08:53,113:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 20:08:53,292:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 20:08:53,524:CONFIG:127.0.0.1:doing a commit-check, please be patient
+2016-06-09 20:08:53,524:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 20:08:54,292:CONFIG:127.0.0.1:committing change, please be patient
+2016-06-09 20:08:54,292:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 20:08:56,287:CONFIG:127.0.0.1:unlocking
+2016-06-09 20:08:56,287:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 20:08:56,467:CONFIG:127.0.0.1:change completed
+2016-06-09 20:08:56,467:ncclient.operations.rpc:Requesting 'CloseSession'
+2016-06-09 20:53:59,507:CONFIG:127.0.0.1:connecting to host: root@127.0.0.1:2204
+2016-06-09 20:53:59,590:ncclient.transport.ssh:Connected (version 2.0, client OpenSSH_6.6)
+2016-06-09 20:53:59,730:ncclient.transport.ssh:Authentication (password) successful!
+2016-06-09 20:54:00,195:ncclient.transport.session:initialized: session-id=2305 | server_capabilities=['http://xml.juniper.net/dmi/system/1.0', 'urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0', 'http://xml.juniper.net/netconf/junos/1.0', 'urn:ietf:params:xml:ns:netconf:capability:validate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:candidate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file', 'urn:ietf:params:xml:ns:netconf:base:1.0']
+2016-06-09 20:54:00,195:CONFIG:127.0.0.1:pushing file: /Users/mbutler/Playground/mbutler-mpls-lab/vsrxce6.set
+2016-06-09 20:54:00,195:CONFIG:127.0.0.1:taking lock
+2016-06-09 20:54:00,209:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 20:54:00,336:CONFIG:127.0.0.1:loading config
+2016-06-09 20:54:00,337:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 20:54:00,461:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 20:54:00,744:CONFIG:127.0.0.1:unlocking
+2016-06-09 20:54:00,745:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 20:54:00,871:CONFIG:127.0.0.1:change completed
+2016-06-09 20:54:00,871:ncclient.operations.rpc:Requesting 'CloseSession'
+2016-06-09 20:54:09,060:CONFIG:127.0.0.1:connecting to host: root@127.0.0.1:2203
+2016-06-09 20:54:09,069:ncclient.transport.ssh:Connected (version 2.0, client OpenSSH_6.6)
+2016-06-09 20:54:09,146:ncclient.transport.ssh:Authentication (password) successful!
+2016-06-09 20:54:09,325:ncclient.transport.session:initialized: session-id=2305 | server_capabilities=['http://xml.juniper.net/dmi/system/1.0', 'urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0', 'http://xml.juniper.net/netconf/junos/1.0', 'urn:ietf:params:xml:ns:netconf:capability:validate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:candidate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file', 'urn:ietf:params:xml:ns:netconf:base:1.0']
+2016-06-09 20:54:09,326:CONFIG:127.0.0.1:pushing file: /Users/mbutler/Playground/mbutler-mpls-lab/vsrxce5.set
+2016-06-09 20:54:09,326:CONFIG:127.0.0.1:taking lock
+2016-06-09 20:54:09,332:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 20:54:09,400:CONFIG:127.0.0.1:loading config
+2016-06-09 20:54:09,400:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 20:54:09,525:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 20:54:09,650:CONFIG:127.0.0.1:unlocking
+2016-06-09 20:54:09,650:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 20:54:09,779:CONFIG:127.0.0.1:change completed
+2016-06-09 20:54:09,780:ncclient.operations.rpc:Requesting 'CloseSession'
+2016-06-09 21:19:41,797:CONFIG:127.0.0.1:connecting to host: root@127.0.0.1:2222
+2016-06-09 21:19:41,867:ncclient.transport.ssh:Connected (version 2.0, client OpenSSH_6.6)
+2016-06-09 21:19:42,037:ncclient.transport.ssh:Authentication (password) successful!
+2016-06-09 21:19:42,480:ncclient.transport.session:initialized: session-id=2416 | server_capabilities=['http://xml.juniper.net/dmi/system/1.0', 'urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0', 'http://xml.juniper.net/netconf/junos/1.0', 'urn:ietf:params:xml:ns:netconf:capability:validate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:candidate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file', 'urn:ietf:params:xml:ns:netconf:base:1.0']
+2016-06-09 21:19:42,481:CONFIG:127.0.0.1:pushing file: /Users/mbutler/Playground/mbutler-mpls-lab/vsrxp1.set
+2016-06-09 21:19:42,481:CONFIG:127.0.0.1:taking lock
+2016-06-09 21:19:42,492:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 21:19:42,618:CONFIG:127.0.0.1:loading config
+2016-06-09 21:19:42,618:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 21:19:43,057:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 21:19:43,291:CONFIG:127.0.0.1:doing a commit-check, please be patient
+2016-06-09 21:19:43,291:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 21:19:44,168:CONFIG:127.0.0.1:committing change, please be patient
+2016-06-09 21:19:44,168:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 21:19:47,991:CONFIG:127.0.0.1:unlocking
+2016-06-09 21:19:47,992:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 21:19:48,120:CONFIG:127.0.0.1:change completed
+2016-06-09 21:19:48,120:ncclient.operations.rpc:Requesting 'CloseSession'
+2016-06-09 21:19:56,337:CONFIG:127.0.0.1:connecting to host: root@127.0.0.1:2200
+2016-06-09 21:19:56,401:ncclient.transport.ssh:Connected (version 2.0, client OpenSSH_6.6)
+2016-06-09 21:19:56,561:ncclient.transport.ssh:Authentication (password) successful!
+2016-06-09 21:19:57,014:ncclient.transport.session:initialized: session-id=2335 | server_capabilities=['http://xml.juniper.net/dmi/system/1.0', 'urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0', 'http://xml.juniper.net/netconf/junos/1.0', 'urn:ietf:params:xml:ns:netconf:capability:validate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:candidate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file', 'urn:ietf:params:xml:ns:netconf:base:1.0']
+2016-06-09 21:19:57,014:CONFIG:127.0.0.1:pushing file: /Users/mbutler/Playground/mbutler-mpls-lab/vsrxp2.set
+2016-06-09 21:19:57,014:CONFIG:127.0.0.1:taking lock
+2016-06-09 21:19:57,022:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 21:19:57,150:CONFIG:127.0.0.1:loading config
+2016-06-09 21:19:57,151:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 21:19:57,701:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 21:19:57,933:CONFIG:127.0.0.1:doing a commit-check, please be patient
+2016-06-09 21:19:57,933:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 21:20:00,317:CONFIG:127.0.0.1:committing change, please be patient
+2016-06-09 21:20:00,317:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 21:20:06,827:CONFIG:127.0.0.1:unlocking
+2016-06-09 21:20:06,827:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 21:20:06,957:CONFIG:127.0.0.1:change completed
+2016-06-09 21:20:06,957:ncclient.operations.rpc:Requesting 'CloseSession'
+2016-06-09 21:20:24,344:CONFIG:127.0.0.1:connecting to host: root@127.0.0.1:2201
+2016-06-09 21:20:24,354:ncclient.transport.ssh:Connected (version 2.0, client OpenSSH_6.6)
+2016-06-09 21:20:24,428:ncclient.transport.ssh:Authentication (password) successful!
+2016-06-09 21:20:24,608:ncclient.transport.session:initialized: session-id=2335 | server_capabilities=['http://xml.juniper.net/dmi/system/1.0', 'urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0', 'http://xml.juniper.net/netconf/junos/1.0', 'urn:ietf:params:xml:ns:netconf:capability:validate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:candidate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file', 'urn:ietf:params:xml:ns:netconf:base:1.0']
+2016-06-09 21:20:24,608:CONFIG:127.0.0.1:pushing file: /Users/mbutler/Playground/mbutler-mpls-lab/vsrxpe3.set
+2016-06-09 21:20:24,609:CONFIG:127.0.0.1:taking lock
+2016-06-09 21:20:24,616:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 21:20:24,742:CONFIG:127.0.0.1:loading config
+2016-06-09 21:20:24,744:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 21:20:24,816:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 21:20:24,993:CONFIG:127.0.0.1:doing a commit-check, please be patient
+2016-06-09 21:20:24,993:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 21:20:25,284:CONFIG:127.0.0.1:committing change, please be patient
+2016-06-09 21:20:25,284:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 21:20:25,896:CONFIG:127.0.0.1:unlocking
+2016-06-09 21:20:25,896:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 21:20:26,020:CONFIG:127.0.0.1:change completed
+2016-06-09 21:20:26,020:ncclient.operations.rpc:Requesting 'CloseSession'
+2016-06-09 21:20:34,477:CONFIG:127.0.0.1:connecting to host: root@127.0.0.1:2202
+2016-06-09 21:20:34,539:ncclient.transport.ssh:Connected (version 2.0, client OpenSSH_6.6)
+2016-06-09 21:20:34,650:ncclient.transport.ssh:Authentication (password) successful!
+2016-06-09 21:20:35,146:ncclient.transport.session:initialized: session-id=2335 | server_capabilities=['http://xml.juniper.net/dmi/system/1.0', 'urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0', 'http://xml.juniper.net/netconf/junos/1.0', 'urn:ietf:params:xml:ns:netconf:capability:validate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:candidate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file', 'urn:ietf:params:xml:ns:netconf:base:1.0']
+2016-06-09 21:20:35,146:CONFIG:127.0.0.1:pushing file: /Users/mbutler/Playground/mbutler-mpls-lab/vsrxpe4.set
+2016-06-09 21:20:35,146:CONFIG:127.0.0.1:taking lock
+2016-06-09 21:20:35,154:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 21:20:35,226:CONFIG:127.0.0.1:loading config
+2016-06-09 21:20:35,226:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 21:20:35,724:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 21:20:35,958:CONFIG:127.0.0.1:doing a commit-check, please be patient
+2016-06-09 21:20:35,958:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 21:20:38,280:CONFIG:127.0.0.1:committing change, please be patient
+2016-06-09 21:20:38,280:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 21:20:44,955:CONFIG:127.0.0.1:unlocking
+2016-06-09 21:20:44,955:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 21:20:45,083:CONFIG:127.0.0.1:change completed
+2016-06-09 21:20:45,084:ncclient.operations.rpc:Requesting 'CloseSession'
+2016-06-09 21:20:54,726:CONFIG:127.0.0.1:connecting to host: root@127.0.0.1:2203
+2016-06-09 21:20:54,735:ncclient.transport.ssh:Connected (version 2.0, client OpenSSH_6.6)
+2016-06-09 21:20:54,832:ncclient.transport.ssh:Authentication (password) successful!
+2016-06-09 21:20:55,017:ncclient.transport.session:initialized: session-id=2339 | server_capabilities=['http://xml.juniper.net/dmi/system/1.0', 'urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0', 'http://xml.juniper.net/netconf/junos/1.0', 'urn:ietf:params:xml:ns:netconf:capability:validate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:candidate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file', 'urn:ietf:params:xml:ns:netconf:base:1.0']
+2016-06-09 21:20:55,017:CONFIG:127.0.0.1:pushing file: /Users/mbutler/Playground/mbutler-mpls-lab/vsrxce5.set
+2016-06-09 21:20:55,017:CONFIG:127.0.0.1:taking lock
+2016-06-09 21:20:55,023:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 21:20:55,145:CONFIG:127.0.0.1:loading config
+2016-06-09 21:20:55,145:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 21:20:55,218:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 21:20:55,345:CONFIG:127.0.0.1:unlocking
+2016-06-09 21:20:55,345:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 21:20:55,470:CONFIG:127.0.0.1:change completed
+2016-06-09 21:20:55,470:ncclient.operations.rpc:Requesting 'CloseSession'
+2016-06-09 21:21:03,254:CONFIG:127.0.0.1:connecting to host: root@127.0.0.1:2204
+2016-06-09 21:21:03,325:ncclient.transport.ssh:Connected (version 2.0, client OpenSSH_6.6)
+2016-06-09 21:21:03,494:ncclient.transport.ssh:Authentication (password) successful!
+2016-06-09 21:21:04,004:ncclient.transport.session:initialized: session-id=2339 | server_capabilities=['http://xml.juniper.net/dmi/system/1.0', 'urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0', 'http://xml.juniper.net/netconf/junos/1.0', 'urn:ietf:params:xml:ns:netconf:capability:validate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:candidate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file', 'urn:ietf:params:xml:ns:netconf:base:1.0']
+2016-06-09 21:21:04,005:CONFIG:127.0.0.1:pushing file: /Users/mbutler/Playground/mbutler-mpls-lab/vsrxce6.set
+2016-06-09 21:21:04,005:CONFIG:127.0.0.1:taking lock
+2016-06-09 21:21:04,011:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 21:21:04,086:CONFIG:127.0.0.1:loading config
+2016-06-09 21:21:04,087:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 21:21:04,263:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 21:21:04,494:CONFIG:127.0.0.1:unlocking
+2016-06-09 21:21:04,495:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-09 21:21:04,618:CONFIG:127.0.0.1:change completed
+2016-06-09 21:21:04,618:ncclient.operations.rpc:Requesting 'CloseSession'
+2016-06-13 13:51:05,987:CONFIG:127.0.0.1:connecting to host: root@127.0.0.1:2222
+2016-06-13 13:51:06,070:ncclient.transport.ssh:Connected (version 2.0, client OpenSSH_6.6)
+2016-06-13 13:51:06,220:ncclient.transport.ssh:Authentication (password) successful!
+2016-06-13 13:51:06,740:ncclient.transport.session:initialized: session-id=1323 | server_capabilities=['http://xml.juniper.net/dmi/system/1.0', 'urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0', 'http://xml.juniper.net/netconf/junos/1.0', 'urn:ietf:params:xml:ns:netconf:capability:validate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:candidate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file', 'urn:ietf:params:xml:ns:netconf:base:1.0']
+2016-06-13 13:51:06,740:CONFIG:127.0.0.1:pushing file: /Users/mbutler/Playground/mbutler-mpls-lab/vsrxp1.set
+2016-06-13 13:51:06,740:CONFIG:127.0.0.1:taking lock
+2016-06-13 13:51:06,747:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-13 13:51:06,877:CONFIG:127.0.0.1:loading config
+2016-06-13 13:51:06,878:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-13 13:51:07,332:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-13 13:51:07,625:CONFIG:127.0.0.1:doing a commit-check, please be patient
+2016-06-13 13:51:07,625:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-13 13:51:09,863:CONFIG:127.0.0.1:committing change, please be patient
+2016-06-13 13:51:09,864:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-13 13:51:13,830:CONFIG:127.0.0.1:unlocking
+2016-06-13 13:51:13,830:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-13 13:51:13,959:CONFIG:127.0.0.1:change completed
+2016-06-13 13:51:13,960:ncclient.operations.rpc:Requesting 'CloseSession'
+2016-06-13 13:51:34,571:CONFIG:127.0.0.1:connecting to host: root@127.0.0.1:2200
+2016-06-13 13:51:34,657:ncclient.transport.ssh:Connected (version 2.0, client OpenSSH_6.6)
+2016-06-13 13:51:34,808:ncclient.transport.ssh:Authentication (password) successful!
+2016-06-13 13:51:35,278:ncclient.transport.session:initialized: session-id=1301 | server_capabilities=['http://xml.juniper.net/dmi/system/1.0', 'urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0', 'http://xml.juniper.net/netconf/junos/1.0', 'urn:ietf:params:xml:ns:netconf:capability:validate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:candidate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file', 'urn:ietf:params:xml:ns:netconf:base:1.0']
+2016-06-13 13:51:35,278:CONFIG:127.0.0.1:pushing file: /Users/mbutler/Playground/mbutler-mpls-lab/vsrxp2.set
+2016-06-13 13:51:35,278:CONFIG:127.0.0.1:taking lock
+2016-06-13 13:51:35,285:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-13 13:51:35,413:CONFIG:127.0.0.1:loading config
+2016-06-13 13:51:35,415:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-13 13:51:35,863:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-13 13:51:36,156:CONFIG:127.0.0.1:doing a commit-check, please be patient
+2016-06-13 13:51:36,157:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-13 13:51:38,558:CONFIG:127.0.0.1:committing change, please be patient
+2016-06-13 13:51:38,558:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-13 13:51:42,630:CONFIG:127.0.0.1:unlocking
+2016-06-13 13:51:42,630:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-13 13:51:42,759:CONFIG:127.0.0.1:change completed
+2016-06-13 13:51:42,759:ncclient.operations.rpc:Requesting 'CloseSession'
+2016-06-13 13:51:55,299:CONFIG:127.0.0.1:connecting to host: root@127.0.0.1:2201
+2016-06-13 13:51:55,363:ncclient.transport.ssh:Connected (version 2.0, client OpenSSH_6.6)
+2016-06-13 13:51:55,482:ncclient.transport.ssh:Authentication (password) successful!
+2016-06-13 13:51:55,951:ncclient.transport.session:initialized: session-id=1298 | server_capabilities=['http://xml.juniper.net/dmi/system/1.0', 'urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0', 'http://xml.juniper.net/netconf/junos/1.0', 'urn:ietf:params:xml:ns:netconf:capability:validate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:candidate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file', 'urn:ietf:params:xml:ns:netconf:base:1.0']
+2016-06-13 13:51:55,951:CONFIG:127.0.0.1:pushing file: /Users/mbutler/Playground/mbutler-mpls-lab/vsrxpe3.set
+2016-06-13 13:51:55,951:CONFIG:127.0.0.1:taking lock
+2016-06-13 13:51:55,957:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-13 13:51:56,085:CONFIG:127.0.0.1:loading config
+2016-06-13 13:51:56,087:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-13 13:51:56,488:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-13 13:51:56,774:CONFIG:127.0.0.1:doing a commit-check, please be patient
+2016-06-13 13:51:56,775:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-13 13:51:58,954:CONFIG:127.0.0.1:committing change, please be patient
+2016-06-13 13:51:58,954:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-13 13:55:21,925:CONFIG:127.0.0.1:connecting to host: root@127.0.0.1:2202
+2016-06-13 13:55:22,019:ncclient.transport.ssh:Connected (version 2.0, client OpenSSH_6.6)
+2016-06-13 13:55:22,169:ncclient.transport.ssh:Authentication (password) successful!
+2016-06-13 13:55:22,637:ncclient.transport.session:initialized: session-id=1301 | server_capabilities=['http://xml.juniper.net/dmi/system/1.0', 'urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0', 'http://xml.juniper.net/netconf/junos/1.0', 'urn:ietf:params:xml:ns:netconf:capability:validate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:candidate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file', 'urn:ietf:params:xml:ns:netconf:base:1.0']
+2016-06-13 13:55:22,638:CONFIG:127.0.0.1:pushing file: /Users/mbutler/Playground/mbutler-mpls-lab/vsrxpe4.set
+2016-06-13 13:55:22,638:CONFIG:127.0.0.1:taking lock
+2016-06-13 13:55:22,646:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-13 13:55:22,775:CONFIG:127.0.0.1:loading config
+2016-06-13 13:55:22,776:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-13 13:55:23,121:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-13 13:55:23,354:CONFIG:127.0.0.1:doing a commit-check, please be patient
+2016-06-13 13:55:23,354:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-13 13:55:25,637:CONFIG:127.0.0.1:committing change, please be patient
+2016-06-13 13:55:25,637:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-13 13:55:29,492:CONFIG:127.0.0.1:unlocking
+2016-06-13 13:55:29,493:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-13 13:55:29,618:CONFIG:127.0.0.1:change completed
+2016-06-13 13:55:29,618:ncclient.operations.rpc:Requesting 'CloseSession'
+2016-06-13 13:55:55,925:CONFIG:127.0.0.1:connecting to host: root@127.0.0.1:2201
+2016-06-13 13:56:10,955:ncclient.transport.ssh:Exception: Error reading SSH protocol banner
+2016-06-13 13:56:10,957:ncclient.transport.ssh:Traceback (most recent call last):
+2016-06-13 13:56:10,957:ncclient.transport.ssh:  File "build/bdist.macosx-10.10-intel/egg/paramiko/transport.py", line 1584, in run
+2016-06-13 13:56:10,957:ncclient.transport.ssh:    self._check_banner()
+2016-06-13 13:56:10,958:ncclient.transport.ssh:  File "build/bdist.macosx-10.10-intel/egg/paramiko/transport.py", line 1711, in _check_banner
+2016-06-13 13:56:10,958:ncclient.transport.ssh:    raise SSHException('Error reading SSH protocol banner' + str(e))
+2016-06-13 13:56:10,958:ncclient.transport.ssh:SSHException: Error reading SSH protocol banner
+2016-06-13 13:56:10,958:ncclient.transport.ssh:
+2016-06-13 13:56:10,967:CONFIG:127.0.0.1:unable to connect to 127.0.0.1: ConnectError(host: 127.0.0.1, msg: Negotiation failed)
+2016-06-13 14:15:57,796:CONFIG:127.0.0.1:connecting to host: root@127.0.0.1:2201
+2016-06-13 14:16:12,805:ncclient.transport.ssh:Exception: Error reading SSH protocol banner
+2016-06-13 14:16:12,807:ncclient.transport.ssh:Traceback (most recent call last):
+2016-06-13 14:16:12,807:ncclient.transport.ssh:  File "build/bdist.macosx-10.10-intel/egg/paramiko/transport.py", line 1584, in run
+2016-06-13 14:16:12,807:ncclient.transport.ssh:    self._check_banner()
+2016-06-13 14:16:12,807:ncclient.transport.ssh:  File "build/bdist.macosx-10.10-intel/egg/paramiko/transport.py", line 1711, in _check_banner
+2016-06-13 14:16:12,807:ncclient.transport.ssh:    raise SSHException('Error reading SSH protocol banner' + str(e))
+2016-06-13 14:16:12,807:ncclient.transport.ssh:SSHException: Error reading SSH protocol banner
+2016-06-13 14:16:12,808:ncclient.transport.ssh:
+2016-06-13 14:16:12,816:CONFIG:127.0.0.1:unable to connect to 127.0.0.1: ConnectError(host: 127.0.0.1, msg: Negotiation failed)
+2016-06-13 14:29:46,408:CONFIG:127.0.0.1:connecting to host: root@127.0.0.1:2201
+2016-06-13 14:29:46,481:ncclient.transport.ssh:Connected (version 2.0, client OpenSSH_6.6)
+2016-06-13 14:29:46,611:ncclient.transport.ssh:Authentication (password) successful!
+2016-06-13 14:29:47,142:ncclient.transport.session:initialized: session-id=2215 | server_capabilities=['http://xml.juniper.net/dmi/system/1.0', 'urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0', 'http://xml.juniper.net/netconf/junos/1.0', 'urn:ietf:params:xml:ns:netconf:capability:validate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:candidate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file', 'urn:ietf:params:xml:ns:netconf:base:1.0']
+2016-06-13 14:29:47,142:CONFIG:127.0.0.1:pushing file: /Users/mbutler/Playground/mbutler-mpls-lab/vsrxpe3.set
+2016-06-13 14:29:47,143:CONFIG:127.0.0.1:taking lock
+2016-06-13 14:29:47,151:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-13 14:29:47,281:CONFIG:127.0.0.1:loading config
+2016-06-13 14:29:47,282:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-13 14:29:47,945:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-13 14:29:48,234:CONFIG:127.0.0.1:doing a commit-check, please be patient
+2016-06-13 14:29:48,234:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-13 14:29:50,748:CONFIG:127.0.0.1:committing change, please be patient
+2016-06-13 14:29:50,748:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-13 16:08:29,109:CONFIG:127.0.0.1:connecting to host: root@127.0.0.1:2203
+2016-06-13 16:08:29,203:ncclient.transport.ssh:Connected (version 2.0, client OpenSSH_6.6)
+2016-06-13 16:08:29,364:ncclient.transport.ssh:Authentication (password) successful!
+2016-06-13 16:08:29,821:ncclient.transport.session:initialized: session-id=1406 | server_capabilities=['http://xml.juniper.net/dmi/system/1.0', 'urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0', 'http://xml.juniper.net/netconf/junos/1.0', 'urn:ietf:params:xml:ns:netconf:capability:validate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:candidate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file', 'urn:ietf:params:xml:ns:netconf:base:1.0']
+2016-06-13 16:08:29,821:CONFIG:127.0.0.1:pushing file: /Users/mbutler/Playground/mbutler-mpls-lab/vsrxce5.set
+2016-06-13 16:08:29,821:CONFIG:127.0.0.1:taking lock
+2016-06-13 16:08:29,827:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-13 16:08:29,956:CONFIG:127.0.0.1:loading config
+2016-06-13 16:08:29,957:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-13 16:08:30,248:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-13 16:08:30,485:CONFIG:127.0.0.1:doing a commit-check, please be patient
+2016-06-13 16:08:30,485:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-13 16:08:32,783:CONFIG:127.0.0.1:committing change, please be patient
+2016-06-13 16:08:32,783:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-13 16:08:39,019:CONFIG:127.0.0.1:unlocking
+2016-06-13 16:08:39,019:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-13 16:08:39,200:CONFIG:127.0.0.1:change completed
+2016-06-13 16:08:39,201:ncclient.operations.rpc:Requesting 'CloseSession'
+2016-06-13 16:09:17,176:CONFIG:127.0.0.1:connecting to host: root@127.0.0.1:2201
+2016-06-13 16:09:32,267:ncclient.transport.ssh:Exception: Error reading SSH protocol banner
+2016-06-13 16:09:32,269:ncclient.transport.ssh:Traceback (most recent call last):
+2016-06-13 16:09:32,269:ncclient.transport.ssh:  File "build/bdist.macosx-10.10-intel/egg/paramiko/transport.py", line 1584, in run
+2016-06-13 16:09:32,269:ncclient.transport.ssh:    self._check_banner()
+2016-06-13 16:09:32,269:ncclient.transport.ssh:  File "build/bdist.macosx-10.10-intel/egg/paramiko/transport.py", line 1711, in _check_banner
+2016-06-13 16:09:32,269:ncclient.transport.ssh:    raise SSHException('Error reading SSH protocol banner' + str(e))
+2016-06-13 16:09:32,269:ncclient.transport.ssh:SSHException: Error reading SSH protocol banner
+2016-06-13 16:09:32,270:ncclient.transport.ssh:
+2016-06-13 16:09:32,270:CONFIG:127.0.0.1:unable to connect to 127.0.0.1: ConnectError(host: 127.0.0.1, msg: Negotiation failed)
+2016-06-13 16:13:50,401:CONFIG:127.0.0.1:connecting to host: root@127.0.0.1:2201
+2016-06-13 16:13:50,412:ncclient.transport.ssh:Connected (version 2.0, client OpenSSH_6.6)
+2016-06-13 16:13:50,484:ncclient.transport.ssh:Authentication (password) successful!
+2016-06-13 16:13:50,673:ncclient.transport.session:initialized: session-id=2215 | server_capabilities=['http://xml.juniper.net/dmi/system/1.0', 'urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0', 'http://xml.juniper.net/netconf/junos/1.0', 'urn:ietf:params:xml:ns:netconf:capability:validate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:candidate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file', 'urn:ietf:params:xml:ns:netconf:base:1.0']
+2016-06-13 16:13:50,673:CONFIG:127.0.0.1:pushing file: /Users/mbutler/Playground/mbutler-mpls-lab/vsrxpe3.set
+2016-06-13 16:13:50,673:CONFIG:127.0.0.1:taking lock
+2016-06-13 16:13:50,679:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-13 16:13:50,755:CONFIG:127.0.0.1:loading config
+2016-06-13 16:13:50,756:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-13 16:13:50,882:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-13 16:13:51,009:CONFIG:127.0.0.1:doing a commit-check, please be patient
+2016-06-13 16:13:51,009:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-13 16:13:51,352:CONFIG:127.0.0.1:committing change, please be patient
+2016-06-13 16:13:51,352:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-17 09:36:59,536:CONFIG:127.0.0.1:connecting to host: root@127.0.0.1:2203
+2016-06-17 09:36:59,624:ncclient.transport.ssh:Connected (version 2.0, client OpenSSH_6.6)
+2016-06-17 09:36:59,775:ncclient.transport.ssh:Authentication (password) successful!
+2016-06-17 09:37:00,295:ncclient.transport.session:initialized: session-id=1320 | server_capabilities=['http://xml.juniper.net/dmi/system/1.0', 'urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0', 'http://xml.juniper.net/netconf/junos/1.0', 'urn:ietf:params:xml:ns:netconf:capability:validate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:candidate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file', 'urn:ietf:params:xml:ns:netconf:base:1.0']
+2016-06-17 09:37:00,295:CONFIG:127.0.0.1:pushing file: /Users/mbutler/Playground/mbutler-mpls-lab/vsrxce5.set
+2016-06-17 09:37:00,295:CONFIG:127.0.0.1:taking lock
+2016-06-17 09:37:00,303:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-17 09:37:00,378:CONFIG:127.0.0.1:loading config
+2016-06-17 09:37:00,379:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-17 09:37:00,777:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-17 09:37:01,067:CONFIG:127.0.0.1:doing a commit-check, please be patient
+2016-06-17 09:37:01,067:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-17 09:37:03,536:CONFIG:127.0.0.1:committing change, please be patient
+2016-06-17 09:37:03,536:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-17 09:37:07,566:CONFIG:127.0.0.1:unlocking
+2016-06-17 09:37:07,566:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-17 09:37:07,695:CONFIG:127.0.0.1:change completed
+2016-06-17 09:37:07,695:ncclient.operations.rpc:Requesting 'CloseSession'
+2016-06-17 09:39:22,940:CONFIG:127.0.0.1:connecting to host: root@127.0.0.1:2204
+2016-06-17 09:39:23,009:ncclient.transport.ssh:Connected (version 2.0, client OpenSSH_6.6)
+2016-06-17 09:39:23,128:ncclient.transport.ssh:Authentication (password) successful!
+2016-06-17 09:39:23,588:ncclient.transport.session:initialized: session-id=1299 | server_capabilities=['http://xml.juniper.net/dmi/system/1.0', 'urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0', 'http://xml.juniper.net/netconf/junos/1.0', 'urn:ietf:params:xml:ns:netconf:capability:validate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:candidate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file', 'urn:ietf:params:xml:ns:netconf:base:1.0']
+2016-06-17 09:39:23,588:CONFIG:127.0.0.1:pushing file: /Users/mbutler/Playground/mbutler-mpls-lab/vsrxce6.set
+2016-06-17 09:39:23,588:CONFIG:127.0.0.1:taking lock
+2016-06-17 09:39:23,594:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-17 09:39:23,725:CONFIG:127.0.0.1:loading config
+2016-06-17 09:39:23,726:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-17 09:39:24,129:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-17 09:39:24,420:CONFIG:127.0.0.1:doing a commit-check, please be patient
+2016-06-17 09:39:24,421:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-17 09:39:26,779:CONFIG:127.0.0.1:committing change, please be patient
+2016-06-17 09:39:26,779:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-17 09:39:30,651:CONFIG:127.0.0.1:unlocking
+2016-06-17 09:39:30,651:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-17 09:39:30,835:CONFIG:127.0.0.1:change completed
+2016-06-17 09:39:30,835:ncclient.operations.rpc:Requesting 'CloseSession'
+2016-06-17 09:39:42,451:CONFIG:127.0.0.1:connecting to host: root@127.0.0.1:2222
+2016-06-17 09:39:42,527:ncclient.transport.ssh:Connected (version 2.0, client OpenSSH_6.6)
+2016-06-17 09:39:42,677:ncclient.transport.ssh:Authentication (password) successful!
+2016-06-17 09:39:43,149:ncclient.transport.session:initialized: session-id=1304 | server_capabilities=['http://xml.juniper.net/dmi/system/1.0', 'urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0', 'http://xml.juniper.net/netconf/junos/1.0', 'urn:ietf:params:xml:ns:netconf:capability:validate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:candidate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file', 'urn:ietf:params:xml:ns:netconf:base:1.0']
+2016-06-17 09:39:43,150:CONFIG:127.0.0.1:pushing file: /Users/mbutler/Playground/mbutler-mpls-lab/vsrxp1.set
+2016-06-17 09:39:43,150:CONFIG:127.0.0.1:taking lock
+2016-06-17 09:39:43,157:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-17 09:39:43,284:CONFIG:127.0.0.1:loading config
+2016-06-17 09:39:43,284:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-17 09:39:43,741:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-17 09:39:44,031:CONFIG:127.0.0.1:doing a commit-check, please be patient
+2016-06-17 09:39:44,031:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-17 09:39:46,484:CONFIG:127.0.0.1:committing change, please be patient
+2016-06-17 09:39:46,484:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-17 09:39:50,639:CONFIG:127.0.0.1:unlocking
+2016-06-17 09:39:50,639:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-17 09:39:50,768:CONFIG:127.0.0.1:change completed
+2016-06-17 09:39:50,768:ncclient.operations.rpc:Requesting 'CloseSession'
+2016-06-17 09:39:59,656:CONFIG:127.0.0.1:connecting to host: root@127.0.0.1:2200
+2016-06-17 09:39:59,734:ncclient.transport.ssh:Connected (version 2.0, client OpenSSH_6.6)
+2016-06-17 09:39:59,904:ncclient.transport.ssh:Authentication (password) successful!
+2016-06-17 09:40:00,365:ncclient.transport.session:initialized: session-id=1304 | server_capabilities=['http://xml.juniper.net/dmi/system/1.0', 'urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0', 'http://xml.juniper.net/netconf/junos/1.0', 'urn:ietf:params:xml:ns:netconf:capability:validate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:candidate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file', 'urn:ietf:params:xml:ns:netconf:base:1.0']
+2016-06-17 09:40:00,365:CONFIG:127.0.0.1:pushing file: /Users/mbutler/Playground/mbutler-mpls-lab/vsrxp2.set
+2016-06-17 09:40:00,365:CONFIG:127.0.0.1:taking lock
+2016-06-17 09:40:00,371:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-17 09:40:00,499:CONFIG:127.0.0.1:loading config
+2016-06-17 09:40:00,500:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-17 09:40:00,957:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-17 09:40:01,252:CONFIG:127.0.0.1:doing a commit-check, please be patient
+2016-06-17 09:40:01,252:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-17 09:40:03,715:CONFIG:127.0.0.1:committing change, please be patient
+2016-06-17 09:40:03,715:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-17 09:40:07,802:CONFIG:127.0.0.1:unlocking
+2016-06-17 09:40:07,802:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-17 09:40:07,926:CONFIG:127.0.0.1:change completed
+2016-06-17 09:40:07,926:ncclient.operations.rpc:Requesting 'CloseSession'
+2016-06-17 09:40:19,700:CONFIG:127.0.0.1:connecting to host: root@127.0.0.1:2201
+2016-06-17 09:40:34,748:ncclient.transport.ssh:Exception: Error reading SSH protocol banner
+2016-06-17 09:40:34,751:ncclient.transport.ssh:Traceback (most recent call last):
+2016-06-17 09:40:34,751:ncclient.transport.ssh:  File "build/bdist.macosx-10.10-intel/egg/paramiko/transport.py", line 1584, in run
+2016-06-17 09:40:34,751:ncclient.transport.ssh:    self._check_banner()
+2016-06-17 09:40:34,751:ncclient.transport.ssh:  File "build/bdist.macosx-10.10-intel/egg/paramiko/transport.py", line 1711, in _check_banner
+2016-06-17 09:40:34,751:ncclient.transport.ssh:    raise SSHException('Error reading SSH protocol banner' + str(e))
+2016-06-17 09:40:34,751:ncclient.transport.ssh:SSHException: Error reading SSH protocol banner
+2016-06-17 09:40:34,751:ncclient.transport.ssh:
+2016-06-17 09:40:34,753:CONFIG:127.0.0.1:unable to connect to 127.0.0.1: ConnectError(host: 127.0.0.1, msg: Negotiation failed)
+2016-06-17 09:40:44,547:CONFIG:127.0.0.1:connecting to host: root@127.0.0.1:2202
+2016-06-17 09:40:44,627:ncclient.transport.ssh:Connected (version 2.0, client OpenSSH_6.6)
+2016-06-17 09:40:44,787:ncclient.transport.ssh:Authentication (password) successful!
+2016-06-17 09:40:45,248:ncclient.transport.session:initialized: session-id=1301 | server_capabilities=['http://xml.juniper.net/dmi/system/1.0', 'urn:ietf:params:xml:ns:netconf:capability:confirmed-commit:1.0', 'http://xml.juniper.net/netconf/junos/1.0', 'urn:ietf:params:xml:ns:netconf:capability:validate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:candidate:1.0', 'urn:ietf:params:xml:ns:netconf:capability:url:1.0?protocol=http,ftp,file', 'urn:ietf:params:xml:ns:netconf:base:1.0']
+2016-06-17 09:40:45,248:CONFIG:127.0.0.1:pushing file: /Users/mbutler/Playground/mbutler-mpls-lab/vsrxpe4.set
+2016-06-17 09:40:45,248:CONFIG:127.0.0.1:taking lock
+2016-06-17 09:40:45,254:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-17 09:40:45,382:CONFIG:127.0.0.1:loading config
+2016-06-17 09:40:45,383:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-17 09:40:46,057:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-17 09:40:46,406:CONFIG:127.0.0.1:doing a commit-check, please be patient
+2016-06-17 09:40:46,406:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-17 09:40:48,712:CONFIG:127.0.0.1:committing change, please be patient
+2016-06-17 09:40:48,713:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-17 09:40:52,860:CONFIG:127.0.0.1:unlocking
+2016-06-17 09:40:52,860:ncclient.operations.rpc:Requesting 'ExecuteRpc'
+2016-06-17 09:40:52,991:CONFIG:127.0.0.1:change completed
+2016-06-17 09:40:52,991:ncclient.operations.rpc:Requesting 'CloseSession'

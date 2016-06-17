@@ -1,0 +1,15 @@
+set interfaces ge-0/0/1 unit 0 family inet address 192.168.0.2/30
+set interfaces ge-0/0/2 unit 0 family inet
+set interfaces ge-0/0/3 unit 0 family inet
+set interfaces lo0 unit 0 family inet address 5.5.5.5/32
+set routing-options autonomous-system 65100
+set protocols bgp group PE-CE type external
+set protocols bgp group PE-CE export export-connected
+set protocols bgp group PE-CE peer-as 65500
+set protocols bgp group PE-CE neighbor 192.168.0.1
+set protocols ospf area 0.0.0.0 interface ge-0/0/2.0
+set protocols ospf area 0.0.0.0 interface ge-0/0/3.0
+set protocols ospf area 0.0.0.0 interface lo0.0 passive
+set protocols lldp interface all
+set policy-options policy-statement export-connected term 1 from protocol direct
+set policy-options policy-statement export-connected term 1 then accept
