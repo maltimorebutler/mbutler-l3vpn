@@ -1,5 +1,9 @@
 # mbutler-l3vpn
 
+Requirements:
+- Virtual Box
+- Vagrant
+
 The purpose of this repo is to provide a simple, readily available automated setup of a L3VPN topology.
 
 The topology consists of 6x vSRX's forming 
